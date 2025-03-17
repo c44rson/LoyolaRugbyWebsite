@@ -1,22 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import loyolarugby from "./loyolarugbytransparent.PNG";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={loyolarugby} className="App-logo" alt="logo" />
+        <p>Loyola Rugby Website v0</p>
+        <p>Hello World!</p>
       </header>
     </div>
   );
